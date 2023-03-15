@@ -1,0 +1,11 @@
+@value x1: 40%;
+@value y1: 50%;
+@value x2: 60%;
+@value y2: 50%;
+
+.bg {
+    background-image: radial-gradient(farthest-corner circle at x1 y1, rgba(238, 236, 174, 1) 0%, rgba(255, 255, 255, 1) 30%, transparent),
+    radial-gradient(farthest-corner circle at x2 y2, rgba(238, 174, 202, 1) 0%, rgba(255, 255, 255, 1) 30%, transparent 60%);
+    background-attachment: fixed;
+}
+
